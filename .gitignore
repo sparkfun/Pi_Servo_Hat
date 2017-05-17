@@ -1,0 +1,12 @@
+*.eep
+*.elf
+*.lst
+*.csv
+*.lss
+*.sym
+*.d
+*.o
+*.srec
+*.map
+*.b#?
+*.s#?
