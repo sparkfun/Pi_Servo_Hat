@@ -11,15 +11,15 @@
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
@@ -34,12 +34,12 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -196,6 +196,8 @@ ISO</text>
 <text x="31.115" y="3.302" size="1.016" layer="21" font="vector" ratio="15">POW</text>
 <text x="31.115" y="0.762" size="1.016" layer="21" font="vector" ratio="15">GND</text>
 <text x="31.242" y="5.842" size="1.016" layer="21" font="vector" ratio="15">SIG</text>
+<text x="8.89" y="10.922" size="0.8128" layer="21" font="vector" ratio="15">TX</text>
+<text x="9.144" y="14.605" size="0.8128" layer="21" font="vector" ratio="15">RX</text>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors">
@@ -2225,11 +2227,11 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="C3" library="SparkFun-Capacitors" package="0603" value="0.1uF" x="25.4" y="13.97">
 <attribute name="PROD_ID" value="CAP-08604" x="25.4" y="13.97" size="1.778" layer="27" display="off"/>
 </element>
-<element name="D1" library="SparkFun-LED" package="LED-0603" value="Yellow" x="8.89" y="12.446">
-<attribute name="PROD_ID" value="DIO-11230" x="8.89" y="12.446" size="1.778" layer="27" display="off"/>
+<element name="D1" library="SparkFun-LED" package="LED-0603" value="GREEN" x="8.89" y="12.446">
+<attribute name="PROD_ID" value="DIO-00821" x="8.89" y="12.446" size="1.778" layer="27" display="off"/>
 </element>
-<element name="D2" library="SparkFun-LED" package="LED-0603" value="Red" x="8.89" y="13.97">
-<attribute name="PROD_ID" value="DIO-11154" x="8.89" y="13.97" size="1.778" layer="27" display="off"/>
+<element name="D2" library="SparkFun-LED" package="LED-0603" value="Yellow" x="8.89" y="13.97">
+<attribute name="PROD_ID" value="DIO-11230" x="8.89" y="13.97" size="1.778" layer="27" display="off"/>
 </element>
 <element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="24.13" y="-20.32"/>
 <element name="J1" library="SparkFun-Connectors" package="2X20" value="RASPBERRYPI-40-PIN-GPIO_PTH_NO_SHROUD" x="8.34" y="25.28"/>
@@ -2425,6 +2427,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="C6" pad="2"/>
 <contactref element="C7" pad="2"/>
 <contactref element="C8" pad="2"/>
+<via x="19.05" y="14.097" extent="1-16" drill="0.381"/>
+<via x="24.511" y="15.494" extent="1-16" drill="0.381"/>
+<via x="41.021" y="16.129" extent="1-16" drill="0.381"/>
 </signal>
 <signal name="LV_SCL">
 <contactref element="U2" pad="2"/>
