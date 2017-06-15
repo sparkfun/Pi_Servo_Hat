@@ -20264,7 +20264,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheet>
 <plain>
 <text x="167.64" y="7.62" size="3.81" layer="97">M. Hord</text>
-<text x="238.76" y="6.604" size="3.81" layer="97">00</text>
+<text x="238.76" y="6.604" size="3.81" layer="97">10</text>
 <wire x1="0" y1="88.9" x2="111.76" y2="88.9" width="0.3048" layer="97" style="longdash"/>
 <wire x1="111.76" y1="88.9" x2="147.32" y2="88.9" width="0.3048" layer="97" style="longdash"/>
 <wire x1="147.32" y1="88.9" x2="147.32" y2="35.56" width="0.3048" layer="97" style="longdash"/>
@@ -20308,7 +20308,7 @@ servo power from Pi power rail</text>
 <instance part="C1" gate="G$1" x="27.94" y="58.42"/>
 <instance part="C2" gate="G$1" x="35.56" y="58.42"/>
 <instance part="J2" gate="G$1" x="15.24" y="66.04" rot="MR0"/>
-<instance part="C3" gate="G$1" x="88.9" y="12.7"/>
+<instance part="C3" gate="G$1" x="81.28" y="15.24"/>
 <instance part="GND4" gate="1" x="22.86" y="48.26"/>
 <instance part="GND5" gate="1" x="58.42" y="40.64"/>
 <instance part="GND6" gate="1" x="180.34" y="40.64"/>
@@ -20341,15 +20341,15 @@ servo power from Pi power rail</text>
 <instance part="H2" gate="G$1" x="241.3" y="25.4"/>
 <instance part="H3" gate="G$1" x="241.3" y="27.94"/>
 <instance part="H4" gate="G$1" x="246.38" y="27.94"/>
-<instance part="GND11" gate="1" x="88.9" y="2.54"/>
-<instance part="C4" gate="G$1" x="111.76" y="12.7"/>
-<instance part="C5" gate="G$1" x="132.08" y="15.24"/>
-<instance part="SUPPLY1" gate="G$1" x="132.08" y="22.86"/>
+<instance part="GND11" gate="1" x="81.28" y="5.08"/>
+<instance part="C4" gate="G$1" x="104.14" y="15.24"/>
+<instance part="C5" gate="G$1" x="124.46" y="17.78"/>
+<instance part="SUPPLY1" gate="G$1" x="124.46" y="25.4"/>
 <instance part="JP1" gate="G$1" x="190.5" y="121.92"/>
-<instance part="C6" gate="G$1" x="142.24" y="12.7"/>
+<instance part="C6" gate="G$1" x="134.62" y="15.24"/>
 <instance part="SUPPLY2" gate="G$1" x="182.88" y="124.46"/>
-<instance part="C7" gate="G$1" x="99.06" y="12.7"/>
-<instance part="C8" gate="G$1" x="121.92" y="12.7"/>
+<instance part="C7" gate="G$1" x="91.44" y="15.24"/>
+<instance part="C8" gate="G$1" x="114.3" y="15.24"/>
 <instance part="FD1" gate="G$1" x="238.76" y="27.94"/>
 <instance part="FD2" gate="G$1" x="238.76" y="25.4"/>
 <instance part="LOGO1" gate="G$1" x="0" y="0"/>
@@ -20553,28 +20553,28 @@ servo power from Pi power rail</text>
 <segment>
 <pinref part="GND11" gate="1" pin="GND"/>
 <pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="88.9" y1="5.08" x2="88.9" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="7.62" x2="81.28" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="88.9" y1="7.62" x2="88.9" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="7.62" x2="99.06" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="7.62" x2="111.76" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="7.62" x2="111.76" y2="10.16" width="0.1524" layer="91"/>
-<junction x="88.9" y="7.62"/>
+<wire x1="81.28" y1="10.16" x2="81.28" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="10.16" x2="91.44" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="10.16" x2="104.14" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="10.16" x2="104.14" y2="12.7" width="0.1524" layer="91"/>
+<junction x="81.28" y="10.16"/>
 <pinref part="C5" gate="G$1" pin="-"/>
-<wire x1="111.76" y1="7.62" x2="121.92" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="7.62" x2="132.08" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="7.62" x2="132.08" y2="10.16" width="0.1524" layer="91"/>
-<junction x="111.76" y="7.62"/>
+<wire x1="104.14" y1="10.16" x2="114.3" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="10.16" x2="124.46" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="10.16" x2="124.46" y2="12.7" width="0.1524" layer="91"/>
+<junction x="104.14" y="10.16"/>
 <pinref part="C6" gate="G$1" pin="2"/>
-<wire x1="132.08" y1="7.62" x2="142.24" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="7.62" x2="142.24" y2="10.16" width="0.1524" layer="91"/>
-<junction x="132.08" y="7.62"/>
+<wire x1="124.46" y1="10.16" x2="134.62" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="10.16" x2="134.62" y2="12.7" width="0.1524" layer="91"/>
+<junction x="124.46" y="10.16"/>
 <pinref part="C7" gate="G$1" pin="2"/>
-<wire x1="99.06" y1="10.16" x2="99.06" y2="7.62" width="0.1524" layer="91"/>
-<junction x="99.06" y="7.62"/>
+<wire x1="91.44" y1="12.7" x2="91.44" y2="10.16" width="0.1524" layer="91"/>
+<junction x="91.44" y="10.16"/>
 <pinref part="C8" gate="G$1" pin="2"/>
-<wire x1="121.92" y1="10.16" x2="121.92" y2="7.62" width="0.1524" layer="91"/>
-<junction x="121.92" y="7.62"/>
+<wire x1="114.3" y1="12.7" x2="114.3" y2="10.16" width="0.1524" layer="91"/>
+<junction x="114.3" y="10.16"/>
 </segment>
 </net>
 <net name="LV_SCL" class="0">
@@ -20973,12 +20973,12 @@ servo power from Pi power rail</text>
 <segment>
 <pinref part="SUPPLY1" gate="G$1" pin="VIN"/>
 <pinref part="C5" gate="G$1" pin="+"/>
-<wire x1="132.08" y1="22.86" x2="132.08" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="25.4" x2="124.46" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="132.08" y1="20.32" x2="132.08" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="20.32" x2="142.24" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="20.32" x2="142.24" y2="17.78" width="0.1524" layer="91"/>
-<junction x="132.08" y="20.32"/>
+<wire x1="124.46" y1="22.86" x2="124.46" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="22.86" x2="134.62" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="22.86" x2="134.62" y2="20.32" width="0.1524" layer="91"/>
+<junction x="124.46" y="22.86"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="1"/>
@@ -21016,8 +21016,8 @@ servo power from Pi power rail</text>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="1"/>
-<label x="88.9" y="20.32" size="1.27" layer="95" rot="R90" xref="yes"/>
-<wire x1="88.9" y1="17.78" x2="88.9" y2="20.32" width="0.1524" layer="91"/>
+<label x="81.28" y="22.86" size="1.27" layer="95" rot="R90" xref="yes"/>
+<wire x1="81.28" y1="20.32" x2="81.28" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="5VA" class="0">
@@ -21067,13 +21067,13 @@ servo power from Pi power rail</text>
 </segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="111.76" y1="17.78" x2="111.76" y2="20.32" width="0.1524" layer="91"/>
-<label x="111.76" y="22.86" size="1.27" layer="95" rot="R90" xref="yes"/>
+<wire x1="104.14" y1="20.32" x2="104.14" y2="22.86" width="0.1524" layer="91"/>
+<label x="104.14" y="25.4" size="1.27" layer="95" rot="R90" xref="yes"/>
 <pinref part="C8" gate="G$1" pin="1"/>
-<wire x1="111.76" y1="20.32" x2="111.76" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="20.32" x2="121.92" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="20.32" x2="121.92" y2="17.78" width="0.1524" layer="91"/>
-<junction x="111.76" y="20.32"/>
+<wire x1="104.14" y1="22.86" x2="104.14" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="22.86" x2="114.3" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="22.86" x2="114.3" y2="20.32" width="0.1524" layer="91"/>
+<junction x="104.14" y="22.86"/>
 </segment>
 </net>
 <net name="3.3VB" class="0">
@@ -21099,8 +21099,8 @@ servo power from Pi power rail</text>
 </segment>
 <segment>
 <pinref part="C7" gate="G$1" pin="1"/>
-<wire x1="99.06" y1="20.32" x2="99.06" y2="17.78" width="0.1524" layer="91"/>
-<label x="99.06" y="20.32" size="1.27" layer="95" rot="R90" xref="yes"/>
+<wire x1="91.44" y1="22.86" x2="91.44" y2="20.32" width="0.1524" layer="91"/>
+<label x="91.44" y="22.86" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="SHIELD" class="0">
