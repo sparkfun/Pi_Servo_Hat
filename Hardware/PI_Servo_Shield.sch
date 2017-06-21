@@ -17647,14 +17647,14 @@ No silk outline, but tDocu layer shows pin location.
 <smd name="SHIELD3" x="-0.97858125" y="-1.34908125" dx="2.5" dy="1.425" layer="1" rot="R90"/>
 <smd name="P$10" x="2.48141875" y="1.59791875" dx="1.3" dy="1" layer="16" roundness="100" rot="R90" stop="no" cream="no"/>
 <polygon width="0.08" layer="1">
-<vertex x="-3.79358125" y="0.65591875"/>
-<vertex x="-3.79358125" y="-0.09408125"/>
-<vertex x="-3.31858125" y="-0.09408125"/>
+<vertex x="-3.79358125" y="0.64591875"/>
+<vertex x="-3.79858125" y="0.00591875"/>
+<vertex x="-3.32358125" y="0.00591875"/>
 <vertex x="-3.31858125" y="-1.88408125" curve="90"/>
 <vertex x="-2.91358125" y="-2.17908125"/>
 <vertex x="-2.31358125" y="-2.17908125" curve="90"/>
 <vertex x="-1.96858125" y="-1.89408125"/>
-<vertex x="-1.96858125" y="0.65591875"/>
+<vertex x="-1.96358125" y="0.64591875"/>
 </polygon>
 <smd name="P$2" x="2.48741875" y="1.59391875" dx="1.3" dy="1" layer="1" roundness="100" rot="R90"/>
 <text x="-2.83858125" y="2.98591875" size="1.27" layer="25" font="vector">&gt;NAME</text>
@@ -17672,27 +17672,19 @@ No silk outline, but tDocu layer shows pin location.
 <wire x1="-3.87858125" y1="2.40091875" x2="3.92141875" y2="2.40091875" width="0.1" layer="47"/>
 <polygon width="0.08" layer="1">
 <vertex x="3.87641875" y="0.64591875"/>
-<vertex x="3.87641875" y="-0.08408125"/>
-<vertex x="3.37141875" y="-0.08408125"/>
+<vertex x="3.87641875" y="0.01091875"/>
+<vertex x="3.37141875" y="0.01091875"/>
 <vertex x="3.37141875" y="-1.87408125" curve="-90"/>
 <vertex x="2.96641875" y="-2.16908125"/>
 <vertex x="2.36641875" y="-2.16908125" curve="-90"/>
 <vertex x="2.04141875" y="-1.86408125"/>
 <vertex x="2.04141875" y="0.64591875"/>
 </polygon>
-<hole x="-2.65858125" y="-0.87908125" drill="0.66"/>
+<hole x="-2.69258125" y="-1.13408125" drill="0.7"/>
 <smd name="P$3" x="-2.65854375" y="-1.143784375" dx="2.1" dy="1.4" layer="16" roundness="100" rot="R90" stop="no" cream="no"/>
-<hole x="2.47681875" y="1.82091875" drill="0.66"/>
-<hole x="2.46141875" y="1.66551875" drill="0.66"/>
-<hole x="2.48141875" y="1.42551875" drill="0.66"/>
-<hole x="2.46681875" y="1.53631875" drill="0.66"/>
-<hole x="-2.65858125" y="-1.05908125" drill="0.66"/>
-<hole x="-2.65858125" y="-1.21908125" drill="0.66"/>
-<hole x="-2.64858125" y="-1.34908125" drill="0.66"/>
-<hole x="2.70141875" y="-0.89908125" drill="0.66"/>
-<hole x="2.70141875" y="-1.07908125" drill="0.66"/>
-<hole x="2.70141875" y="-1.23908125" drill="0.66"/>
-<hole x="2.71141875" y="-1.36908125" drill="0.66"/>
+<hole x="-2.69258125" y="-1.30008125" drill="0.7"/>
+<hole x="-2.69358125" y="-1.49908125" drill="0.7"/>
+<hole x="-2.69358125" y="-1.66408125" drill="0.7"/>
 <polygon width="0.1016" layer="29">
 <vertex x="-3.87858125" y="0.73151875"/>
 <vertex x="-1.87198125" y="0.73151875"/>
@@ -17702,14 +17694,14 @@ No silk outline, but tDocu layer shows pin location.
 <vertex x="-2.25298125" y="-2.26568125"/>
 <vertex x="-2.98958125" y="-2.26568125" curve="-90"/>
 <vertex x="-3.39598125" y="-1.88468125"/>
-<vertex x="-3.39598125" y="-0.18288125"/>
-<vertex x="-3.87858125" y="-0.18288125"/>
+<vertex x="-3.39098125" y="-0.11788125"/>
+<vertex x="-3.87358125" y="-0.11788125"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="1.91261875" y="0.73151875"/>
 <vertex x="3.97001875" y="0.73151875"/>
-<vertex x="3.97001875" y="-0.18288125"/>
-<vertex x="3.46201875" y="-0.18288125"/>
+<vertex x="3.97001875" y="-0.10788125"/>
+<vertex x="3.46201875" y="-0.10788125"/>
 <vertex x="3.46201875" y="-1.85928125" curve="-90"/>
 <vertex x="3.08101875" y="-2.26568125"/>
 <vertex x="2.31901875" y="-2.26568125" curve="-90"/>
@@ -17739,10 +17731,10 @@ No silk outline, but tDocu layer shows pin location.
 <vertex x="3.38581875" y="-1.88468125"/>
 <vertex x="3.38581875" y="-0.13208125" curve="-90"/>
 </polygon>
-<hole x="-2.36918125" y="1.82091875" drill="0.66"/>
-<hole x="-2.35918125" y="1.69091875" drill="0.66"/>
-<hole x="-2.36918125" y="1.54091875" drill="0.66"/>
-<hole x="-2.36378125" y="1.43171875" drill="0.66"/>
+<hole x="-2.35918125" y="1.82091875" drill="0.66"/>
+<hole x="-2.34918125" y="1.69091875" drill="0.66"/>
+<hole x="-2.35918125" y="1.54091875" drill="0.66"/>
+<hole x="-2.35378125" y="1.43171875" drill="0.66"/>
 <polygon width="0.05" layer="31">
 <vertex x="-1.39858125" y="2.14391875"/>
 <vertex x="-1.14858125" y="2.14391875"/>
@@ -17773,6 +17765,14 @@ No silk outline, but tDocu layer shows pin location.
 <vertex x="1.45141875" y="0.51391875"/>
 <vertex x="1.20141875" y="0.51391875"/>
 </polygon>
+<hole x="2.48081875" y="1.82091875" drill="0.66"/>
+<hole x="2.49081875" y="1.69091875" drill="0.66"/>
+<hole x="2.48081875" y="1.54091875" drill="0.66"/>
+<hole x="2.48621875" y="1.43171875" drill="0.66"/>
+<hole x="2.76841875" y="-1.13408125" drill="0.7"/>
+<hole x="2.76741875" y="-1.30308125" drill="0.7"/>
+<hole x="2.76641875" y="-1.49608125" drill="0.7"/>
+<hole x="2.76641875" y="-1.66408125" drill="0.7"/>
 </package>
 </packages>
 <symbols>
@@ -20283,7 +20283,7 @@ servo power from Pi power rail</text>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="V" x="147.32" y="0"/>
 <instance part="J1" gate="G$1" x="198.12" y="76.2"/>
-<instance part="U1" gate="U$1" x="73.66" y="63.5"/>
+<instance part="U1" gate="U$1" x="86.36" y="58.42"/>
 <instance part="U2" gate="G$1" x="203.2" y="149.86" rot="MR0"/>
 <instance part="U3" gate="G$1" x="134.62" y="127"/>
 <instance part="R1" gate="G$1" x="167.64" y="167.64" rot="R90"/>
@@ -20293,24 +20293,24 @@ servo power from Pi power rail</text>
 <instance part="R5" gate="G$1" x="233.68" y="165.1" rot="R90"/>
 <instance part="GND2" gate="1" x="127" y="119.38"/>
 <instance part="GND3" gate="1" x="220.98" y="142.24"/>
-<instance part="D1" gate="G$1" x="116.84" y="73.66"/>
-<instance part="D2" gate="G$1" x="106.68" y="73.66"/>
-<instance part="R6" gate="G$1" x="116.84" y="60.96" rot="R90"/>
-<instance part="R7" gate="G$1" x="106.68" y="60.96" rot="R90"/>
-<instance part="R8" gate="G$1" x="48.26" y="68.58" smashed="yes">
-<attribute name="NAME" x="44.958" y="70.104" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="52.324" y="69.85" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
+<instance part="D1" gate="G$1" x="129.54" y="68.58"/>
+<instance part="D2" gate="G$1" x="119.38" y="68.58"/>
+<instance part="R6" gate="G$1" x="129.54" y="55.88" rot="R90"/>
+<instance part="R7" gate="G$1" x="119.38" y="55.88" rot="R90"/>
+<instance part="R8" gate="G$1" x="60.96" y="63.5" smashed="yes">
+<attribute name="NAME" x="57.658" y="65.024" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="65.024" y="64.77" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
 </instance>
-<instance part="R9" gate="G$1" x="48.26" y="66.04" smashed="yes">
-<attribute name="NAME" x="44.704" y="63.5" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="52.578" y="63.5" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
+<instance part="R9" gate="G$1" x="60.96" y="60.96" smashed="yes">
+<attribute name="NAME" x="57.404" y="58.42" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="65.278" y="58.42" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
 </instance>
-<instance part="C1" gate="G$1" x="27.94" y="58.42"/>
-<instance part="C2" gate="G$1" x="35.56" y="58.42"/>
-<instance part="J2" gate="G$1" x="15.24" y="66.04" rot="MR0"/>
+<instance part="C1" gate="G$1" x="40.64" y="53.34"/>
+<instance part="C2" gate="G$1" x="48.26" y="53.34"/>
+<instance part="J2" gate="G$1" x="27.94" y="60.96" rot="MR0"/>
 <instance part="C3" gate="G$1" x="81.28" y="15.24"/>
-<instance part="GND4" gate="1" x="22.86" y="48.26"/>
-<instance part="GND5" gate="1" x="58.42" y="40.64"/>
+<instance part="GND4" gate="1" x="35.56" y="43.18"/>
+<instance part="GND5" gate="1" x="71.12" y="35.56"/>
 <instance part="GND6" gate="1" x="180.34" y="40.64"/>
 <instance part="J3" gate="J$1" x="10.16" y="167.64"/>
 <instance part="J4" gate="J$1" x="10.16" y="152.4"/>
@@ -20329,7 +20329,7 @@ servo power from Pi power rail</text>
 <instance part="J17" gate="J$1" x="86.36" y="137.16"/>
 <instance part="J18" gate="J$1" x="86.36" y="121.92"/>
 <instance part="GND7" gate="1" x="20.32" y="114.3"/>
-<instance part="SUPPLY9" gate="G$1" x="25.4" y="73.66"/>
+<instance part="SUPPLY9" gate="G$1" x="38.1" y="68.58"/>
 <instance part="SUPPLY10" gate="G$1" x="22.86" y="172.72"/>
 <instance part="GND8" gate="1" x="45.72" y="114.3"/>
 <instance part="SUPPLY11" gate="G$1" x="48.26" y="172.72"/>
@@ -20421,28 +20421,28 @@ servo power from Pi power rail</text>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="GND"/>
-<wire x1="20.32" y1="60.96" x2="22.86" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="55.88" x2="35.56" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="22.86" y1="60.96" x2="22.86" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="55.88" x2="35.56" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="22.86" y1="53.34" x2="22.86" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="55.88" x2="27.94" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="48.26" x2="35.56" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="50.8" x2="40.64" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="35.56" y1="55.88" x2="35.56" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="53.34" x2="27.94" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="53.34" x2="27.94" y2="53.34" width="0.1524" layer="91"/>
-<junction x="22.86" y="53.34"/>
-<junction x="27.94" y="53.34"/>
+<wire x1="48.26" y1="50.8" x2="48.26" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="48.26" x2="40.64" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="48.26" x2="40.64" y2="48.26" width="0.1524" layer="91"/>
+<junction x="35.56" y="48.26"/>
+<junction x="40.64" y="48.26"/>
 </segment>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
-<wire x1="58.42" y1="43.18" x2="58.42" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="38.1" x2="71.12" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="U1" gate="U$1" pin="GND@6"/>
-<wire x1="58.42" y1="48.26" x2="58.42" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="50.8" x2="58.42" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="43.18" x2="71.12" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="45.72" x2="71.12" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="U1" gate="U$1" pin="GND@16"/>
-<wire x1="60.96" y1="48.26" x2="58.42" y2="48.26" width="0.1524" layer="91"/>
-<junction x="58.42" y="48.26"/>
+<wire x1="73.66" y1="43.18" x2="71.12" y2="43.18" width="0.1524" layer="91"/>
+<junction x="71.12" y="43.18"/>
 </segment>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
@@ -20613,37 +20613,37 @@ servo power from Pi power rail</text>
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
 <pinref part="D2" gate="G$1" pin="C"/>
-<wire x1="106.68" y1="66.04" x2="106.68" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="60.96" x2="119.38" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
 <pinref part="D1" gate="G$1" pin="C"/>
-<wire x1="116.84" y1="66.04" x2="116.84" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="60.96" x2="129.54" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="106.68" y1="55.88" x2="106.68" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="50.8" x2="119.38" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="U1" gate="U$1" pin="CBUS1"/>
-<wire x1="106.68" y1="53.34" x2="86.36" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="48.26" x2="99.06" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
 <pinref part="U1" gate="U$1" pin="CBUS2"/>
 <pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="86.36" y1="50.8" x2="116.84" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="50.8" x2="116.84" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="45.72" x2="129.54" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="45.72" x2="129.54" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TXD" class="0">
 <segment>
 <pinref part="U1" gate="U$1" pin="TXD"/>
-<wire x1="86.36" y1="78.74" x2="88.9" y2="78.74" width="0.1524" layer="91"/>
-<label x="88.9" y="78.74" size="1.27" layer="95" xref="yes"/>
+<wire x1="99.06" y1="73.66" x2="101.6" y2="73.66" width="0.1524" layer="91"/>
+<label x="101.6" y="73.66" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="RXI"/>
@@ -20654,8 +20654,8 @@ servo power from Pi power rail</text>
 <net name="RXD" class="0">
 <segment>
 <pinref part="U1" gate="U$1" pin="RXD"/>
-<wire x1="86.36" y1="76.2" x2="88.9" y2="76.2" width="0.1524" layer="91"/>
-<label x="88.9" y="76.2" size="1.27" layer="95" xref="yes"/>
+<wire x1="99.06" y1="71.12" x2="101.6" y2="71.12" width="0.1524" layer="91"/>
+<label x="101.6" y="71.12" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="TXO"/>
@@ -20667,36 +20667,36 @@ servo power from Pi power rail</text>
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
 <pinref part="U1" gate="U$1" pin="USBDM"/>
-<wire x1="53.34" y1="68.58" x2="60.96" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="63.5" x2="73.66" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
 <pinref part="U1" gate="U$1" pin="USBDP"/>
-<wire x1="53.34" y1="66.04" x2="60.96" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="60.96" x2="73.66" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
 <pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="35.56" y1="63.5" x2="35.56" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="58.42" x2="48.26" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="R9" gate="G$1" pin="1"/>
-<wire x1="35.56" y1="66.04" x2="43.18" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="60.96" x2="55.88" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="D+"/>
-<wire x1="35.56" y1="66.04" x2="20.32" y2="66.04" width="0.1524" layer="91"/>
-<junction x="35.56" y="66.04"/>
+<wire x1="48.26" y1="60.96" x2="33.02" y2="60.96" width="0.1524" layer="91"/>
+<junction x="48.26" y="60.96"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
 <pinref part="J2" gate="G$1" pin="D-"/>
 <pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="20.32" y1="68.58" x2="27.94" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="68.58" x2="27.94" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="63.5" x2="40.64" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="63.5" x2="40.64" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="27.94" y1="68.58" x2="43.18" y2="68.58" width="0.1524" layer="91"/>
-<junction x="27.94" y="68.58"/>
+<wire x1="40.64" y1="63.5" x2="55.88" y2="63.5" width="0.1524" layer="91"/>
+<junction x="40.64" y="63.5"/>
 </segment>
 </net>
 <net name="CH15" class="0">
@@ -20895,8 +20895,8 @@ servo power from Pi power rail</text>
 <segment>
 <pinref part="J2" gate="G$1" pin="VBUS"/>
 <pinref part="SUPPLY9" gate="G$1" pin="VIN"/>
-<wire x1="20.32" y1="71.12" x2="25.4" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="71.12" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="66.04" x2="38.1" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="66.04" x2="38.1" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY10" gate="G$1" pin="VIN"/>
@@ -20995,24 +20995,24 @@ servo power from Pi power rail</text>
 </segment>
 <segment>
 <pinref part="D2" gate="G$1" pin="A"/>
-<wire x1="106.68" y1="76.2" x2="106.68" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="71.12" x2="119.38" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="A"/>
-<wire x1="106.68" y1="78.74" x2="116.84" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="78.74" x2="116.84" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="78.74" x2="106.68" y2="81.28" width="0.1524" layer="91"/>
-<junction x="106.68" y="78.74"/>
-<label x="106.68" y="81.28" size="1.27" layer="95" rot="R90" xref="yes"/>
+<wire x1="119.38" y1="73.66" x2="129.54" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="73.66" x2="129.54" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="73.66" x2="119.38" y2="76.2" width="0.1524" layer="91"/>
+<junction x="119.38" y="73.66"/>
+<label x="119.38" y="76.2" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U1" gate="U$1" pin="!RESET"/>
-<wire x1="60.96" y1="60.96" x2="58.42" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="55.88" x2="71.12" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="U1" gate="U$1" pin="VCCIO"/>
-<wire x1="58.42" y1="76.2" x2="60.96" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="60.96" x2="58.42" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="76.2" x2="53.34" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="76.2" x2="53.34" y2="78.74" width="0.1524" layer="91"/>
-<junction x="58.42" y="76.2"/>
-<label x="53.34" y="78.74" size="1.27" layer="95" rot="R90" xref="yes"/>
+<wire x1="71.12" y1="71.12" x2="73.66" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="55.88" x2="71.12" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="71.12" x2="66.04" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="71.12" x2="66.04" y2="73.66" width="0.1524" layer="91"/>
+<junction x="71.12" y="71.12"/>
+<label x="66.04" y="73.66" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="1"/>
@@ -21055,9 +21055,9 @@ servo power from Pi power rail</text>
 </segment>
 <segment>
 <pinref part="U1" gate="U$1" pin="VCC"/>
-<wire x1="60.96" y1="78.74" x2="58.42" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="78.74" x2="58.42" y2="81.28" width="0.1524" layer="91"/>
-<label x="58.42" y="81.28" size="1.27" layer="95" rot="R90" xref="yes"/>
+<wire x1="73.66" y1="73.66" x2="71.12" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="73.66" x2="71.12" y2="76.2" width="0.1524" layer="91"/>
+<label x="71.12" y="76.2" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="VDD"/>
@@ -21106,9 +21106,9 @@ servo power from Pi power rail</text>
 <net name="SHIELD" class="0">
 <segment>
 <pinref part="J2" gate="G$1" pin="SHIELD"/>
-<wire x1="7.62" y1="66.04" x2="5.08" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="66.04" x2="5.08" y2="73.66" width="0.1524" layer="91"/>
-<label x="5.08" y="73.66" size="1.27" layer="95" rot="R90" xref="yes"/>
+<wire x1="20.32" y1="60.96" x2="17.78" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="60.96" x2="17.78" y2="68.58" width="0.1524" layer="91"/>
+<label x="17.78" y="68.58" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 </nets>

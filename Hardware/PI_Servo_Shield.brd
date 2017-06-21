@@ -2292,7 +2292,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </element>
 <element name="H1" library="SparkFun-Hardware" package="STAND-OFF" value="STAND-OFF" x="61.5" y="3.5"/>
 <element name="H2" library="SparkFun-Hardware" package="STAND-OFF" value="STAND-OFF" x="3.5" y="26.5"/>
-<element name="H3" library="SparkFun-Hardware" package="STAND-OFF" value="STAND-OFF" x="61" y="26.5"/>
+<element name="H3" library="SparkFun-Hardware" package="STAND-OFF" value="STAND-OFF" x="61.5" y="26.5"/>
 <element name="H4" library="SparkFun-Hardware" package="STAND-OFF" value="STAND-OFF" x="3.5" y="3.5"/>
 <element name="C4" library="SparkFun-Capacitors" package="0603" value="0.1uF" x="38.989" y="20.574">
 <attribute name="PROD_ID" value="CAP-08604" x="38.989" y="20.574" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
