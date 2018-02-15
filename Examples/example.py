@@ -7,7 +7,7 @@ import smbus, time
 ##  extreme and exit the program.
 
 bus = smbus.SMBus(1)  # the chip is on bus 1 of the available I2C buses
-addr = 0x20           # I2C address of the PWM chip.
+addr = 0x40           # I2C address of the PWM chip.
 bus.write_byte_data(addr, 0, 0x20)     # enable the chip
 bus.write_byte_data(addr, 0xfe, 0x1e)  # configure the chip for multi-byte write
 
@@ -24,7 +24,7 @@ bus.write_word_data(addr, 0x08, 1250)  # chl 0 end time = 1.5ms
 ##  from now on we only need perform the second write, as the first register we
 ##  wrote to can remain at zero.
 
-time.sleep(2000)   # pause at neutral for two seconds
+time.sleep(2)   # pause at neutral for two seconds
 bus.write_word_data(addr, 0x08, 836)  # chl 0 end time = 1.0ms
-time.sleep(2000)
+time.sleep(2)
 bus.write_word_data(addr, 0x08, 1664)  # chl 0 end time = 2.0ms
