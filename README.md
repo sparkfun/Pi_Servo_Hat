@@ -12,7 +12,7 @@ SparkFun Pi Servo Hat
   </tr>
 </table>
 
-The Pi Servo Hat is a hat that adds, via I<sup>2</sup>C, the ability to control up to 16 servo motors with a Raspberry Pi. It is the same size and form factor as a Pi Zero or Pi Zero W. The Pi Sero Hat is great for adding pan/tilt control with the Raspberry Pi Camera to create homemade motion-activated security systems, webcam interfaces for streaming, or monitoring stations for any number of projects and adventures. 
+The Pi Servo Hat is a hat that adds, via I<sup>2</sup>C, the ability to control up to 16 servo motors with a Raspberry Pi. It is the same size and form factor as a Pi Zero or Pi Zero W. The Pi Servo Hat is great for adding pan/tilt control with the Raspberry Pi Camera to create homemade motion-activated security systems, webcam interfaces for streaming, or monitoring stations for any number of projects and adventures. 
 
 Repository Contents
 -------------------
