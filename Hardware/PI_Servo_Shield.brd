@@ -19,34 +19,34 @@
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
@@ -96,10 +96,10 @@
 <layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="no"/>
 <layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="no"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="no"/>
-<layer number="117" name="PM_Ref" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="117" name="PM_Ref" color="7" fill="1" visible="no" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
-<layer number="119" name="PF_Ref" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="120" name="WFL_Ref" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="119" name="PF_Ref" color="7" fill="1" visible="no" active="yes"/>
+<layer number="120" name="WFL_Ref" color="7" fill="1" visible="no" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="no"/>
@@ -6376,11 +6376,11 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="RES-13714" x="-2.8702" y="-34.3408" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="9.8298" y="2.3622" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="JP3" library="SparkFun-Jumpers" package="SMT-JUMPER_3_2-NC_TRACE_SILK" value="I2C" x="55.6006" y="13.97" smashed="yes" rot="R270">
-<attribute name="NAME" x="56.7436" y="13.97" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="VALUE" x="54.4576" y="13.97" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+<element name="JP3" library="SparkFun-Jumpers" package="SMT-JUMPER_3_2-NC_TRACE_SILK" value="I2C" x="56.7436" y="13.97" smashed="yes" rot="R270">
+<attribute name="NAME" x="57.8866" y="13.97" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="55.6006" y="13.97" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="U$2" library="Qwiic RFID - IDXXLA" package="I_SUPER2_C-()-03" value="" x="57.15" y="12.5222" smashed="yes" rot="R90"/>
+<element name="U$2" library="Qwiic RFID - IDXXLA" package="I_SUPER2_C-()-03" value="" x="55.1942" y="12.573" smashed="yes" rot="R90"/>
 <element name="U$3" library="buzzard_labels" package="028" value="" x="17.78" y="7.0485" smashed="yes" rot="R90"/>
 <element name="U$4" library="buzzard_labels" package="129" value="" x="20.32" y="7.0485" smashed="yes" rot="R90"/>
 <element name="U$5" library="buzzard_labels" package="230" value="" x="22.86" y="7.0485" smashed="yes" rot="R90"/>
@@ -6894,7 +6894,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="44.45" y1="22.86" x2="48.768" y2="18.542" width="0.4064" layer="16"/>
 <wire x1="48.768" y1="18.542" x2="52.8066" y2="18.542" width="0.4064" layer="16"/>
 <via x="49.53" y="10.16" extent="1-16" drill="0.381"/>
-<wire x1="53.34" y1="18.542" x2="57.1246" y2="18.542" width="0.4064" layer="16"/>
+<wire x1="52.8066" y1="18.542" x2="57.1246" y2="18.542" width="0.4064" layer="16"/>
 <wire x1="49.53" y1="10.16" x2="48.768" y2="10.922" width="0.4064" layer="16"/>
 <wire x1="48.768" y1="10.922" x2="48.768" y2="18.542" width="0.4064" layer="16"/>
 <wire x1="49.943" y1="13.24" x2="50.265" y2="13.24" width="0.2032" layer="1"/>
@@ -6904,9 +6904,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="49.745" y1="11.8382" x2="50.1278" y2="11.4554" width="0.2032" layer="1"/>
 <wire x1="50.1278" y1="11.4554" x2="50.1278" y2="10.7578" width="0.4064" layer="1"/>
 <wire x1="50.1278" y1="10.7578" x2="49.53" y2="10.16" width="0.4064" layer="1"/>
-<wire x1="55.6006" y1="13.97" x2="52.8066" y2="13.97" width="0.2032" layer="1"/>
+<wire x1="56.7436" y1="13.97" x2="52.8066" y2="13.97" width="0.2032" layer="1"/>
 <wire x1="52.8066" y1="13.97" x2="52.8066" y2="18.542" width="0.4064" layer="16"/>
-<wire x1="52.8066" y1="18.542" x2="53.34" y2="18.542" width="0.4064" layer="16"/>
 </signal>
 <signal name="VBUS" class="1">
 <contactref element="C10" pad="1"/>
@@ -7058,14 +7057,14 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <signal name="N$2">
 <contactref element="JP3" pad="3"/>
 <contactref element="R4" pad="2"/>
-<wire x1="53.682" y1="12.9794" x2="55.5752" y2="12.9794" width="0.2032" layer="1"/>
-<wire x1="55.5752" y1="12.9794" x2="55.6006" y2="12.954" width="0.2032" layer="1"/>
+<wire x1="53.682" y1="12.9794" x2="56.7182" y2="12.9794" width="0.2032" layer="1"/>
+<wire x1="56.7182" y1="12.9794" x2="56.7436" y2="12.954" width="0.2032" layer="1"/>
 </signal>
 <signal name="N$5">
 <contactref element="R5" pad="2"/>
 <contactref element="JP3" pad="1"/>
-<wire x1="53.6566" y1="14.9606" x2="55.5752" y2="14.9606" width="0.2032" layer="1"/>
-<wire x1="55.5752" y1="14.9606" x2="55.6006" y2="14.986" width="0.2032" layer="1"/>
+<wire x1="53.6566" y1="14.9606" x2="56.7182" y2="14.9606" width="0.2032" layer="1"/>
+<wire x1="56.7182" y1="14.9606" x2="56.7436" y2="14.986" width="0.2032" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
@@ -7076,15 +7075,12 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 <errors>
-<approved hash="19,1,8b5e8901d8263c7b"/>
-<approved hash="19,1,c174277374547451"/>
-<approved hash="19,1,806c83f3d2d43749"/>
-<approved hash="19,1,c6622279715e7347"/>
-<approved hash="23,1,4e6f0caf0cd14e11"/>
-<approved hash="23,1,9c3a3afa3bc89d08"/>
-<approved hash="23,1,1efd3c3d3e091cc9"/>
 <approved hash="23,1,64f1a7dcf5ee7407"/>
 <approved hash="23,1,8372bf4cbd43817d"/>
+<approved hash="19,1,53274ebfda877d1e"/>
+<approved hash="19,1,851822c4b4ffa922"/>
+<approved hash="19,1,8e2a2836be0da210"/>
+<approved hash="19,1,54314bb5df8d7a08"/>
 </errors>
 </board>
 </drawing>
