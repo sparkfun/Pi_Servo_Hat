@@ -23794,28 +23794,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="SMT-JUMPER_2_NC_PASTE_NO-SILK">
-<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<rectangle x1="-1.2446" y1="-1.1176" x2="1.2446" y2="1.1176" layer="31"/>
-<smd name="1" x="-0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<smd name="2" x="0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-</package>
-<package name="SMT-JUMPER_2_NC_PASTE_SILK">
-<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<wire x1="0.8636" y1="-1.016" x2="-0.8636" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="0.8636" y1="1.016" x2="1.1176" y2="0.762" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.1176" y1="0.762" x2="-0.8636" y2="1.016" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.1176" y1="-0.762" x2="-0.8636" y2="-1.016" width="0.1524" layer="21" curve="90"/>
-<wire x1="0.8636" y1="-1.016" x2="1.1176" y2="-0.762" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.1176" y1="-0.762" x2="1.1176" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-1.1176" y1="-0.762" x2="-1.1176" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-0.8636" y1="1.016" x2="0.8636" y2="1.016" width="0.1524" layer="21"/>
-<rectangle x1="-1.2446" y1="-1.1176" x2="1.2446" y2="1.1176" layer="31"/>
-<smd name="1" x="-0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<smd name="2" x="0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-</package>
 <package name="SMT-JUMPER_2_NO_NO-SILK">
 <text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
@@ -23919,19 +23897,42 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="0.3048" y1="-0.127" x2="0.7112" y2="0.127" layer="1"/>
 <rectangle x1="-0.7112" y1="-0.127" x2="-0.3048" y2="0.127" layer="1"/>
 </package>
+<package name="SMT-JUMPER_2_NC_TRACE_NO-SILK">
+<smd name="1" x="-0.508" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="2" x="0.508" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<polygon width="0.127" layer="29">
+<vertex x="-0.1905" y="0.127"/>
+<vertex x="0.1905" y="0.127"/>
+<vertex x="0.1905" y="-0.127"/>
+<vertex x="-0.1905" y="-0.127"/>
+</polygon>
+<rectangle x1="-0.2032" y1="-0.127" x2="0.2032" y2="0.127" layer="1"/>
+</package>
+<package name="SMT-JUMPER_2_NC_TRACE_SILK">
+<wire x1="0.762" y1="-1.016" x2="-0.762" y2="-1.016" width="0.2032" layer="21"/>
+<wire x1="0.762" y1="1.016" x2="1.2192" y2="0.5588" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-1.2192" y1="0.5588" x2="-0.762" y2="1.016" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-1.2192" y1="-0.5588" x2="-0.762" y2="-1.016" width="0.2032" layer="21" curve="90"/>
+<wire x1="0.762" y1="-1.016" x2="1.2192" y2="-0.5588" width="0.2032" layer="21" curve="90"/>
+<wire x1="1.2192" y1="-0.5588" x2="1.2192" y2="0.5588" width="0.2032" layer="21"/>
+<wire x1="-1.2192" y1="-0.5588" x2="-1.2192" y2="0.5588" width="0.2032" layer="21"/>
+<wire x1="-0.762" y1="1.016" x2="0.762" y2="1.016" width="0.2032" layer="21"/>
+<smd name="1" x="-0.508" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="2" x="0.508" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<polygon width="0.127" layer="29">
+<vertex x="-0.1905" y="0.127"/>
+<vertex x="0.1905" y="0.127"/>
+<vertex x="0.1905" y="-0.127"/>
+<vertex x="-0.1905" y="-0.127"/>
+</polygon>
+<rectangle x1="-0.2032" y1="-0.127" x2="0.2032" y2="0.127" layer="1"/>
+</package>
 </packages>
 <symbols>
-<symbol name="SMT-JUMPER_2_NC_PASTE">
-<wire x1="0.381" y1="0.635" x2="0.381" y2="-0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
-<wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
-<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.1524" layer="94"/>
-<text x="-2.54" y="2.54" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-2.54" y="-2.54" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<circle x="0" y="0" radius="1.93440625" width="0" layer="95"/>
-</symbol>
 <symbol name="SMT-JUMPER_2_NO">
 <wire x1="0.381" y1="0.635" x2="0.381" y2="-0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
 <wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
@@ -23960,35 +23961,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="2" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
 <wire x1="0" y1="2.032" x2="0" y2="-1.778" width="0.254" layer="94"/>
 </symbol>
+<symbol name="SMT-JUMPER_2_NC_TRACE">
+<wire x1="0.381" y1="0.635" x2="1.016" y2="0" width="1.27" layer="94" curve="-90" cap="flat"/>
+<wire x1="1.016" y1="0" x2="0.381" y2="-0.635" width="1.27" layer="94" curve="-90" cap="flat"/>
+<wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
+<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.1524" layer="94"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<wire x1="-0.762" y1="0" x2="1.016" y2="0" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
-<deviceset name="JUMPER-SMT_2_NC_PASTE" prefix="JP">
-<description>&lt;h3&gt;Normally closed solder jumper&lt;/h3&gt;
-&lt;p&gt;This jumper has an aperture in the stencil to allow solder paste to bridge the split in the wire so it's normally closed (NC). Wick off the solder to open the connection. Reapply solder to reclose the connection.&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="SMT-JUMPER_2_NC_PASTE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="_NO-SILK" package="SMT-JUMPER_2_NC_PASTE_NO-SILK">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="_SILK" package="SMT-JUMPER_2_NC_PASTE_SILK">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="JUMPER-SMT_2_NO" prefix="JP">
 <description>&lt;h3&gt;Normally open jumper&lt;/h3&gt;
 &lt;p&gt;This jumper has two pads in close proximity to each other. Apply solder to close the connection.&lt;/p&gt;
@@ -24067,6 +24053,39 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JUMPER-SMT_2_NC_TRACE" prefix="JP">
+<description>&lt;h3&gt;Normally closed trace jumper&lt;/h3&gt;
+&lt;p&gt;This jumper has a trace between two pads so it's normally closed (NC). Use a razor knife to open the connection. For best results follow the IPC guidelines for cutting traces:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cutout at least 0.063 mm (0.005 in).&lt;/li&gt;
+&lt;li&gt;Remove all loose material to clean up the cut area.&lt;/li&gt;
+&lt;li&gt;Seal the cut with an approved epoxy.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Reapply solder to reclose the connection.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="SMT-JUMPER_2_NC_TRACE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_NO-SILK" package="SMT-JUMPER_2_NC_TRACE_NO-SILK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_SILK" package="SMT-JUMPER_2_NC_TRACE_SILK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -24528,7 +24547,6 @@ Exposes the minimal pins needed to implement a USB 2.x legacy device.</descripti
 <part name="C4" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-5%" value="0.1uF"/>
 <part name="C5" library="SparkFun-Capacitors" deviceset="100UF-POLAR" device="-25V-20%(ELEC)" value="100uF"/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
-<part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_PASTE" device="_SILK" value="VIN ISO"/>
 <part name="C6" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-5%" value="0.1uF"/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
 <part name="C7" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-5%" value="0.1uF"/>
@@ -24559,17 +24577,31 @@ Exposes the minimal pins needed to implement a USB 2.x legacy device.</descripti
 <part name="R11" library="SparkFun-Resistors" deviceset="5.1KOHM" device="5.1KOHM-0603-1/10W-1%" value="5.1k"/>
 <part name="GND15" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND16" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="JP2" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK" value=""/>
+<part name="JP2" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK" value="FUSE BP"/>
 <part name="F2" library="SparkFun-Fuses" deviceset="PPTC" device="_6V2A" value="6V/2A"/>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
 <part name="GND4" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="JP3" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_2-NC_TRACE" device="_SILK" value="I2C"/>
+<part name="5V" library="SparkFun-PowerSymbols" deviceset="VIN" device="" value="5V"/>
+<part name="JP4" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" value="VIN ISO"/>
+<part name="5V1" library="SparkFun-PowerSymbols" deviceset="VIN" device="" value="5V"/>
+<part name="5V2" library="SparkFun-PowerSymbols" deviceset="VIN" device="" value="5V"/>
+<part name="5V3" library="SparkFun-PowerSymbols" deviceset="VIN" device="" value="5V"/>
+<part name="5V4" library="SparkFun-PowerSymbols" deviceset="VIN" device="" value="5V"/>
+<part name="5V5" library="SparkFun-PowerSymbols" deviceset="VIN" device="" value="5V"/>
+<part name="3.3V" library="SparkFun-PowerSymbols" deviceset="VIN" device="" value="3.3V"/>
+<part name="3.3V1" library="SparkFun-PowerSymbols" deviceset="VIN" device="" value="3.3V"/>
+<part name="3.3V2" library="SparkFun-PowerSymbols" deviceset="VIN" device="" value="3.3V"/>
+<part name="3.3V3" library="SparkFun-PowerSymbols" deviceset="VIN" device="" value="3.3V"/>
+<part name="3.3V4" library="SparkFun-PowerSymbols" deviceset="VIN" device="" value="3.3V"/>
+<part name="3.3V5" library="SparkFun-PowerSymbols" deviceset="VIN" device="" value="3.3V"/>
+<part name="3.3V6" library="SparkFun-PowerSymbols" deviceset="VIN" device="" value="3.3V"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="166.878" y="11.43" size="2.54" layer="94" font="vector">M. Hord</text>
-<text x="238.76" y="6.604" size="2.54" layer="94" font="vector" ratio="12">v20</text>
+<text x="238.76" y="6.604" size="2.54" layer="94" font="vector" ratio="12">v11</text>
 <wire x1="0" y1="101.6" x2="111.76" y2="101.6" width="0.3048" layer="97" style="longdash"/>
 <wire x1="111.76" y1="101.6" x2="147.32" y2="101.6" width="0.3048" layer="97" style="longdash"/>
 <wire x1="147.32" y1="101.6" x2="147.32" y2="35.56" width="0.3048" layer="97" style="longdash"/>
@@ -24585,13 +24617,16 @@ servo power from Pi power rail</text>
 <text x="149.098" y="7.112" size="2.54" layer="94" font="vector">Revised by:</text>
 <text x="174.498" y="6.858" size="2.54" layer="94" font="vector">Pete Lewis</text>
 <text x="2.794" y="96.266" size="2.54" layer="97" font="vector">USB-to-Serial Converter</text>
-<text x="39.878" y="82.296" size="1.778" layer="97" font="vector">Close JP2 to bypass Fuse (F2).
+<text x="39.878" y="84.836" size="1.778" layer="97" font="vector">Close JP2 to bypass Fuse (F2).
 Be careful, USB-C is powerful.</text>
 <wire x1="88.9" y1="73.66" x2="35.56" y2="73.66" width="0.2032" layer="97" style="shortdash"/>
-<wire x1="35.56" y1="73.66" x2="35.56" y2="88.9" width="0.2032" layer="97" style="shortdash"/>
-<wire x1="35.56" y1="88.9" x2="88.9" y2="88.9" width="0.2032" layer="97" style="shortdash"/>
-<wire x1="88.9" y1="88.9" x2="88.9" y2="73.66" width="0.2032" layer="97" style="shortdash"/>
+<wire x1="35.56" y1="73.66" x2="35.56" y2="91.44" width="0.2032" layer="97" style="shortdash"/>
+<wire x1="35.56" y1="91.44" x2="88.9" y2="91.44" width="0.2032" layer="97" style="shortdash"/>
+<wire x1="88.9" y1="91.44" x2="88.9" y2="73.66" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="210.82" y1="116.84" x2="210.82" y2="35.56" width="0.3048" layer="97" style="longdash"/>
+<text x="216.154" y="74.676" size="2.54" layer="97">Serial Connector</text>
+<text x="215.646" y="70.866" size="1.778" layer="97">(Mates with Sphero RVR)</text>
+<wire x1="210.82" y1="81.28" x2="248.92" y2="81.28" width="0.3048" layer="97" style="longdash"/>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -24624,13 +24659,13 @@ Be careful, USB-C is powerful.</text>
 <attribute name="NAME" x="176.276" y="167.64" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="179.324" y="167.64" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="R4" gate="G$1" x="220.98" y="165.1" smashed="yes" rot="R90">
-<attribute name="NAME" x="219.456" y="165.1" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="222.504" y="165.1" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R4" gate="G$1" x="220.98" y="162.56" smashed="yes" rot="R90">
+<attribute name="NAME" x="219.456" y="162.56" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="222.504" y="162.56" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="R5" gate="G$1" x="236.22" y="165.1" smashed="yes" rot="R90">
-<attribute name="NAME" x="234.696" y="165.1" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="237.744" y="165.1" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R5" gate="G$1" x="236.22" y="162.56" smashed="yes" rot="R90">
+<attribute name="NAME" x="234.696" y="162.56" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="237.744" y="162.56" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
 <instance part="GND2" gate="1" x="121.92" y="119.38" smashed="yes">
 <attribute name="VALUE" x="121.92" y="119.126" size="1.778" layer="96" align="top-center"/>
@@ -24751,10 +24786,6 @@ Be careful, USB-C is powerful.</text>
 <instance part="SUPPLY1" gate="G$1" x="124.46" y="25.4" smashed="yes">
 <attribute name="VALUE" x="124.46" y="28.194" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="JP1" gate="G$1" x="200.66" y="124.46" smashed="yes">
-<attribute name="NAME" x="198.12" y="127" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="198.12" y="121.92" size="1.778" layer="96" font="vector" align="top-left"/>
-</instance>
 <instance part="C6" gate="G$1" x="134.62" y="15.24" smashed="yes">
 <attribute name="NAME" x="136.144" y="18.161" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="136.144" y="13.081" size="1.778" layer="96" font="vector"/>
@@ -24776,16 +24807,16 @@ Be careful, USB-C is powerful.</text>
 <instance part="LOGO2" gate="G$1" x="15.24" y="25.4" smashed="yes"/>
 <instance part="FD3" gate="G$1" x="236.22" y="27.94" smashed="yes"/>
 <instance part="FD4" gate="G$1" x="236.22" y="25.4" smashed="yes"/>
-<instance part="J19" gate="G$1" x="223.52" y="93.98" smashed="yes">
-<attribute name="VALUE" x="219.456" y="88.138" size="1.778" layer="96" font="vector" align="top-left"/>
-<attribute name="NAME" x="220.218" y="102.362" size="1.778" layer="95" font="vector"/>
+<instance part="J19" gate="G$1" x="223.52" y="99.06" smashed="yes">
+<attribute name="VALUE" x="219.456" y="93.218" size="1.778" layer="96" font="vector" align="top-left"/>
+<attribute name="NAME" x="220.218" y="107.442" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="GND1" gate="1" x="233.68" y="86.36" smashed="yes">
-<attribute name="VALUE" x="233.68" y="86.106" size="1.778" layer="96" align="top-center"/>
+<instance part="GND1" gate="1" x="233.68" y="91.44" smashed="yes">
+<attribute name="VALUE" x="233.68" y="91.186" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="J21" gate="J1" x="233.68" y="58.42" smashed="yes" rot="R180">
-<attribute name="VALUE" x="239.776" y="49.784" size="1.778" layer="96" font="vector" rot="R180"/>
-<attribute name="NAME" x="238.252" y="66.04" size="1.778" layer="95" font="vector" rot="R180"/>
+<instance part="J21" gate="J1" x="236.22" y="53.34" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="242.57" y="45.466" size="1.778" layer="96" font="vector" rot="MR0"/>
+<attribute name="NAME" x="240.792" y="61.722" size="1.778" layer="95" font="vector" rot="MR0"/>
 </instance>
 <instance part="U$1" gate="G$1" x="58.42" y="20.32" smashed="yes"/>
 <instance part="C10" gate="G$1" x="50.8" y="45.72" smashed="yes" rot="MR0">
@@ -24848,8 +24879,8 @@ Be careful, USB-C is powerful.</text>
 <attribute name="VALUE" x="35.56" y="27.94" size="1.778" layer="96"/>
 </instance>
 <instance part="JP2" gate="G$1" x="60.96" y="78.74" smashed="yes">
-<attribute name="NAME" x="58.674" y="75.184" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="58.42" y="76.2" size="1.778" layer="96" font="vector" align="top-left"/>
+<attribute name="NAME" x="58.674" y="80.518" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="55.626" y="76.962" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
 <instance part="F2" gate="F1" x="60.96" y="60.96" smashed="yes">
 <attribute name="NAME" x="60.198" y="62.738" size="1.778" layer="95" font="vector" align="bottom-center"/>
@@ -24857,12 +24888,55 @@ Be careful, USB-C is powerful.</text>
 <instance part="SUPPLY3" gate="G$1" x="73.66" y="63.5" smashed="yes">
 <attribute name="VALUE" x="73.66" y="66.294" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="GND4" gate="1" x="226.06" y="48.26" smashed="yes">
-<attribute name="VALUE" x="226.06" y="48.006" size="1.778" layer="96" align="top-center"/>
+<instance part="GND4" gate="1" x="218.44" y="45.72" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="218.44" y="45.466" size="1.778" layer="96" rot="MR0" align="top-center"/>
 </instance>
-<instance part="JP3" gate="G$1" x="228.6" y="172.72" smashed="yes" rot="R270">
-<attribute name="NAME" x="228.6" y="174.625" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="226.822" y="170.561" size="1.778" layer="96" font="vector" align="top-left"/>
+<instance part="JP3" gate="G$1" x="228.6" y="170.18" smashed="yes" rot="R270">
+<attribute name="NAME" x="228.6" y="172.085" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="226.822" y="168.021" size="1.778" layer="96" font="vector" align="top-left"/>
+</instance>
+<instance part="5V" gate="G$1" x="228.6" y="60.96" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="228.6" y="63.754" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
+</instance>
+<instance part="JP4" gate="G$1" x="200.66" y="124.46" smashed="yes">
+<attribute name="NAME" x="198.12" y="127" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="195.58" y="122.428" size="1.778" layer="96" font="vector" align="top-left"/>
+</instance>
+<instance part="5V1" gate="G$1" x="162.56" y="104.14" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="162.56" y="106.934" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
+</instance>
+<instance part="5V2" gate="G$1" x="208.28" y="127" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="208.28" y="129.794" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
+</instance>
+<instance part="5V3" gate="G$1" x="177.8" y="177.8" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="177.8" y="180.594" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
+</instance>
+<instance part="5V4" gate="G$1" x="154.94" y="165.1" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="154.94" y="167.894" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
+</instance>
+<instance part="5V5" gate="G$1" x="104.14" y="25.4" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="104.14" y="28.194" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
+</instance>
+<instance part="3.3V" gate="G$1" x="81.28" y="25.4" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="81.28" y="28.194" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
+</instance>
+<instance part="3.3V1" gate="G$1" x="116.84" y="93.98" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="116.84" y="96.774" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
+</instance>
+<instance part="3.3V2" gate="G$1" x="228.6" y="177.8" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="228.6" y="180.594" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
+</instance>
+<instance part="3.3V3" gate="G$1" x="213.36" y="157.48" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="213.36" y="160.274" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
+</instance>
+<instance part="3.3V4" gate="G$1" x="243.84" y="109.22" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="243.84" y="112.014" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
+</instance>
+<instance part="3.3V5" gate="G$1" x="157.48" y="99.06" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="157.48" y="101.854" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
+</instance>
+<instance part="3.3V6" gate="G$1" x="86.36" y="68.58" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="86.36" y="71.374" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -25061,9 +25135,9 @@ Be careful, USB-C is powerful.</text>
 </segment>
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="233.68" y1="88.9" x2="233.68" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="93.98" x2="233.68" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="J19" gate="G$1" pin="1"/>
-<wire x1="233.68" y1="91.44" x2="231.14" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="96.52" x2="231.14" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="50.8" y1="40.64" x2="50.8" y2="43.18" width="0.1524" layer="91"/>
@@ -25099,9 +25173,9 @@ Be careful, USB-C is powerful.</text>
 </segment>
 <segment>
 <pinref part="J21" gate="J1" pin="3"/>
-<wire x1="228.6" y1="55.88" x2="226.06" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="55.88" x2="218.44" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="226.06" y1="55.88" x2="226.06" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="55.88" x2="218.44" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LV_SCL" class="0">
@@ -25109,7 +25183,7 @@ Be careful, USB-C is powerful.</text>
 <pinref part="U2" gate="G$1" pin="SCL1"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="210.82" y1="152.4" x2="220.98" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="152.4" x2="220.98" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="152.4" x2="220.98" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="152.4" x2="238.76" y2="152.4" width="0.1524" layer="91"/>
 <junction x="220.98" y="152.4"/>
 <label x="238.76" y="152.4" size="1.27" layer="95" xref="yes"/>
@@ -25120,8 +25194,8 @@ Be careful, USB-C is powerful.</text>
 <label x="198.12" y="99.06" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="231.14" y1="99.06" x2="233.68" y2="99.06" width="0.1524" layer="91"/>
-<label x="233.68" y="99.06" size="1.27" layer="95" xref="yes"/>
+<wire x1="231.14" y1="104.14" x2="233.68" y2="104.14" width="0.1524" layer="91"/>
+<label x="233.68" y="104.14" size="1.27" layer="95" xref="yes"/>
 <pinref part="J19" gate="G$1" pin="4"/>
 </segment>
 </net>
@@ -25130,7 +25204,7 @@ Be careful, USB-C is powerful.</text>
 <pinref part="U2" gate="G$1" pin="SDA1"/>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="210.82" y1="149.86" x2="236.22" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="149.86" x2="236.22" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="149.86" x2="236.22" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="149.86" x2="238.76" y2="149.86" width="0.1524" layer="91"/>
 <junction x="236.22" y="149.86"/>
 <label x="238.76" y="149.86" size="1.27" layer="95" xref="yes"/>
@@ -25141,8 +25215,8 @@ Be careful, USB-C is powerful.</text>
 <label x="198.12" y="101.6" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="231.14" y1="96.52" x2="233.68" y2="96.52" width="0.1524" layer="91"/>
-<label x="233.68" y="96.52" size="1.27" layer="95" xref="yes"/>
+<wire x1="231.14" y1="101.6" x2="233.68" y2="101.6" width="0.1524" layer="91"/>
+<label x="233.68" y="101.6" size="1.27" layer="95" xref="yes"/>
 <pinref part="J19" gate="G$1" pin="3"/>
 </segment>
 </net>
@@ -25422,10 +25496,10 @@ Be careful, USB-C is powerful.</text>
 <junction x="124.46" y="22.86"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="G$1" pin="1"/>
 <wire x1="195.58" y1="124.46" x2="193.04" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="124.46" x2="193.04" y2="127" width="0.1524" layer="91"/>
 <pinref part="SUPPLY2" gate="G$1" pin="VIN"/>
+<pinref part="JP4" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="SUPPLY3" gate="G$1" pin="VIN"/>
@@ -25439,53 +25513,31 @@ Be careful, USB-C is powerful.</text>
 <junction x="71.12" y="60.96"/>
 </segment>
 </net>
-<net name="3.3VA" class="0">
+<net name="5V" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="3.3V@1"/>
-<wire x1="157.48" y1="96.52" x2="165.1" y2="96.52" width="0.1524" layer="91"/>
-<label x="157.48" y="96.52" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="5V" gate="G$1" pin="VIN"/>
+<wire x1="231.14" y1="58.42" x2="228.6" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="J21" gate="J1" pin="4"/>
+<wire x1="228.6" y1="58.42" x2="228.6" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C3" gate="G$1" pin="1"/>
-<label x="81.28" y="22.86" size="1.27" layer="95" rot="R90" xref="yes"/>
-<wire x1="81.28" y1="20.32" x2="81.28" y2="22.86" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U3" gate="U1" pin="VCC"/>
-<wire x1="88.9" y1="66.04" x2="86.36" y2="66.04" width="0.1524" layer="91"/>
-<label x="86.36" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="R12" gate="G$1" pin="2"/>
-<wire x1="121.92" y1="88.9" x2="121.92" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="91.44" x2="111.76" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="R16" gate="G$1" pin="2"/>
-<wire x1="111.76" y1="91.44" x2="111.76" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="91.44" x2="109.22" y2="91.44" width="0.1524" layer="91"/>
-<junction x="111.76" y="91.44"/>
-<label x="109.22" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="5VA" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="5V@2"/>
-<wire x1="165.1" y1="101.6" x2="157.48" y2="101.6" width="0.1524" layer="91"/>
-<label x="157.48" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="JP1" gate="G$1" pin="2"/>
-<wire x1="205.74" y1="124.46" x2="208.28" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="124.46" x2="208.28" y2="127" width="0.1524" layer="91"/>
-<label x="208.28" y="127" size="1.27" layer="95" rot="R90" xref="yes"/>
-</segment>
-</net>
-<net name="5VB" class="0">
-<segment>
+<pinref part="5V1" gate="G$1" pin="VIN"/>
 <pinref part="J1" gate="G$1" pin="5V@4"/>
-<wire x1="165.1" y1="99.06" x2="157.48" y2="99.06" width="0.1524" layer="91"/>
-<label x="157.48" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="165.1" y1="99.06" x2="162.56" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="5V@2"/>
+<wire x1="165.1" y1="101.6" x2="162.56" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="99.06" x2="162.56" y2="101.6" width="0.1524" layer="91"/>
+<junction x="162.56" y="101.6"/>
+<wire x1="162.56" y1="101.6" x2="162.56" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
+<pinref part="5V2" gate="G$1" pin="VIN"/>
+<wire x1="205.74" y1="124.46" x2="208.28" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="JP4" gate="G$1" pin="2"/>
+<wire x1="208.28" y1="124.46" x2="208.28" y2="127" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="5V3" gate="G$1" pin="VIN"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="162.56" y1="172.72" x2="162.56" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
@@ -25495,58 +25547,24 @@ Be careful, USB-C is powerful.</text>
 <wire x1="170.18" y1="175.26" x2="177.8" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="175.26" x2="177.8" y2="172.72" width="0.1524" layer="91"/>
 <junction x="170.18" y="175.26"/>
-<wire x1="177.8" y1="175.26" x2="177.8" y2="177.8" width="0.1524" layer="91"/>
 <junction x="177.8" y="175.26"/>
-<label x="177.8" y="177.8" size="1.27" layer="95" rot="R90" xref="yes"/>
+<wire x1="177.8" y1="175.26" x2="177.8" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
+<pinref part="5V4" gate="G$1" pin="VIN"/>
 <pinref part="U1" gate="G$1" pin="VDD"/>
 <wire x1="152.4" y1="162.56" x2="154.94" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="162.56" x2="154.94" y2="165.1" width="0.1524" layer="91"/>
-<label x="154.94" y="165.1" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
+<pinref part="5V5" gate="G$1" pin="VIN"/>
 <pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="104.14" y1="20.32" x2="104.14" y2="22.86" width="0.1524" layer="91"/>
-<label x="104.14" y="25.4" size="1.27" layer="95" rot="R90" xref="yes"/>
 <pinref part="C8" gate="G$1" pin="1"/>
-<wire x1="104.14" y1="22.86" x2="104.14" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="22.86" x2="114.3" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="22.86" x2="114.3" y2="20.32" width="0.1524" layer="91"/>
 <junction x="104.14" y="22.86"/>
-</segment>
-<segment>
-<wire x1="228.6" y1="53.34" x2="223.52" y2="53.34" width="0.1524" layer="91"/>
-<label x="223.52" y="53.34" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="J21" gate="J1" pin="4"/>
-</segment>
-</net>
-<net name="3.3VB" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="3.3V@17"/>
-<wire x1="157.48" y1="93.98" x2="165.1" y2="93.98" width="0.1524" layer="91"/>
-<label x="157.48" y="93.98" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U2" gate="G$1" pin="VREF1"/>
-<wire x1="210.82" y1="154.94" x2="213.36" y2="154.94" width="0.1524" layer="91"/>
-<label x="213.36" y="154.94" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="C7" gate="G$1" pin="1"/>
-<wire x1="91.44" y1="22.86" x2="91.44" y2="20.32" width="0.1524" layer="91"/>
-<label x="91.44" y="22.86" size="1.27" layer="95" rot="R90" xref="yes"/>
-</segment>
-<segment>
-<wire x1="233.68" y1="93.98" x2="231.14" y2="93.98" width="0.1524" layer="91"/>
-<label x="233.68" y="93.98" size="1.27" layer="95" xref="yes"/>
-<pinref part="J19" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="JP3" gate="G$1" pin="2"/>
-<wire x1="228.6" y1="177.8" x2="228.6" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="180.34" x2="231.14" y2="180.34" width="0.1524" layer="91"/>
-<label x="231.14" y="180.34" size="1.27" layer="95" xref="yes"/>
+<wire x1="104.14" y1="22.86" x2="104.14" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VBUS" class="1">
@@ -25640,9 +25658,9 @@ Be careful, USB-C is powerful.</text>
 <junction x="121.92" y="66.04"/>
 </segment>
 <segment>
-<pinref part="J21" gate="J1" pin="2"/>
-<wire x1="228.6" y1="58.42" x2="226.06" y2="58.42" width="0.1524" layer="91"/>
-<label x="226.06" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="231.14" y1="50.8" x2="226.06" y2="50.8" width="0.1524" layer="91"/>
+<label x="226.06" y="50.8" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<pinref part="J21" gate="J1" pin="1"/>
 </segment>
 </net>
 <net name="RXI" class="0">
@@ -25661,25 +25679,81 @@ Be careful, USB-C is powerful.</text>
 <junction x="111.76" y="63.5"/>
 </segment>
 <segment>
-<pinref part="J21" gate="J1" pin="1"/>
-<wire x1="228.6" y1="60.96" x2="226.06" y2="60.96" width="0.1524" layer="91"/>
-<label x="226.06" y="60.96" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="231.14" y1="53.34" x2="226.06" y2="53.34" width="0.1524" layer="91"/>
+<label x="226.06" y="53.34" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<pinref part="J21" gate="J1" pin="2"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="JP3" gate="G$1" pin="3"/>
-<wire x1="223.52" y1="172.72" x2="220.98" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="170.18" x2="220.98" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="220.98" y1="172.72" x2="220.98" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="170.18" x2="220.98" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="236.22" y1="170.18" x2="236.22" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="167.64" x2="236.22" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="JP3" gate="G$1" pin="1"/>
-<wire x1="236.22" y1="172.72" x2="233.68" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="170.18" x2="233.68" y2="170.18" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="3.3V" class="0">
+<segment>
+<pinref part="3.3V" gate="G$1" pin="VIN"/>
+<pinref part="C7" gate="G$1" pin="1"/>
+<wire x1="91.44" y1="22.86" x2="91.44" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="81.28" y1="20.32" x2="81.28" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="22.86" x2="81.28" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="22.86" x2="81.28" y2="25.4" width="0.1524" layer="91"/>
+<junction x="81.28" y="22.86"/>
+</segment>
+<segment>
+<pinref part="3.3V1" gate="G$1" pin="VIN"/>
+<pinref part="R12" gate="G$1" pin="2"/>
+<wire x1="121.92" y1="88.9" x2="121.92" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="91.44" x2="116.84" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="R16" gate="G$1" pin="2"/>
+<wire x1="116.84" y1="91.44" x2="111.76" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="91.44" x2="111.76" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="91.44" x2="116.84" y2="93.98" width="0.1524" layer="91"/>
+<junction x="116.84" y="91.44"/>
+</segment>
+<segment>
+<pinref part="3.3V2" gate="G$1" pin="VIN"/>
+<pinref part="JP3" gate="G$1" pin="2"/>
+<wire x1="228.6" y1="175.26" x2="228.6" y2="177.8" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="3.3V3" gate="G$1" pin="VIN"/>
+<pinref part="U2" gate="G$1" pin="VREF1"/>
+<wire x1="210.82" y1="154.94" x2="213.36" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="154.94" x2="213.36" y2="157.48" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="3.3V4" gate="G$1" pin="VIN"/>
+<pinref part="J19" gate="G$1" pin="2"/>
+<wire x1="231.14" y1="99.06" x2="243.84" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="99.06" x2="243.84" y2="109.22" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="3.3V5" gate="G$1" pin="VIN"/>
+<pinref part="J1" gate="G$1" pin="3.3V@17"/>
+<pinref part="J1" gate="G$1" pin="3.3V@1"/>
+<wire x1="157.48" y1="93.98" x2="165.1" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="96.52" x2="165.1" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="93.98" x2="157.48" y2="96.52" width="0.1524" layer="91"/>
+<junction x="157.48" y="96.52"/>
+<wire x1="157.48" y1="96.52" x2="157.48" y2="99.06" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="3.3V6" gate="G$1" pin="VIN"/>
+<pinref part="U3" gate="U1" pin="VCC"/>
+<wire x1="88.9" y1="66.04" x2="86.36" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="66.04" x2="86.36" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
