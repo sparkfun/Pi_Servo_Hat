@@ -24529,7 +24529,6 @@ FRAME_LETTER</description>
 <part name="JP3" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_2-NC_TRACE" device="_SILK" value="I2C"/>
 <part name="RVR-5V" library="SparkFun-PowerSymbols" deviceset="VIN" device="" value="RVR-5V"/>
 <part name="JP4" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" value="PI ISO"/>
-<part name="5V1" library="SparkFun-PowerSymbols" deviceset="VIN" device="" value="PI-5V"/>
 <part name="3.3V" library="SparkFun-PowerSymbols" deviceset="VIN" device="" value="3.3V"/>
 <part name="3.3V1" library="SparkFun-PowerSymbols" deviceset="VIN" device="" value="3.3V"/>
 <part name="3.3V2" library="SparkFun-PowerSymbols" deviceset="VIN" device="" value="3.3V"/>
@@ -24629,6 +24628,7 @@ FRAME_LETTER</description>
 <part name="TP25" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X4" value=""/>
 <part name="5V10" library="SparkFun-PowerSymbols" deviceset="VIN" device="" value="PI-5V"/>
 <part name="5V11" library="SparkFun-PowerSymbols" deviceset="VIN" device="" value="PI-5V"/>
+<part name="5V2" library="SparkFun-PowerSymbols" deviceset="VIN" device="" value="PI-5V"/>
 </parts>
 <sheets>
 <sheet>
@@ -24642,7 +24642,7 @@ FRAME_LETTER</description>
 <text x="149.86" y="269.24" size="2.54" layer="97" font="vector">PWM Control</text>
 <text x="7.62" y="271.78" size="2.54" layer="97" font="vector">Servo Connections</text>
 <wire x1="139.7" y1="152.4" x2="139.7" y2="279.4" width="0.3048" layer="97" style="longdash"/>
-<text x="397.764" y="118.618" size="1.27" layer="97" font="vector" ratio="12">Clear this jumper to disconnect 
+<text x="165.354" y="132.842" size="1.27" layer="97" font="vector" ratio="12">Clear this jumper to disconnect 
 servo power from Pi power rail</text>
 <text x="180.34" y="234.95" size="1.778" layer="97" font="vector">I2C Addr 0x40</text>
 <text x="331.978" y="7.112" size="2.54" layer="94" font="vector">Revised by:</text>
@@ -24723,6 +24723,7 @@ is connected to Raspi header RXI</text>
 <wire x1="330.2" y1="134.62" x2="330.2" y2="279.4" width="0.3048" layer="97" style="longdash"/>
 <wire x1="431.8" y1="129.54" x2="330.2" y2="129.54" width="0.3048" layer="97" style="longdash"/>
 <text x="337.82" y="271.272" size="2.54" layer="97" font="vector">Reverse Current Protection</text>
+<wire x1="159.512" y1="119.888" x2="166.37" y2="131.826" width="0.1524" layer="97" style="shortdash"/>
 </plain>
 <instances>
 <instance part="J1" gate="G$1" x="180.34" y="93.98" smashed="yes">
@@ -24953,12 +24954,9 @@ is connected to Raspi header RXI</text>
 <instance part="RVR-5V" gate="G$1" x="294.64" y="76.2" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="294.64" y="78.994" size="1.778" layer="96" font="vector" rot="MR0" align="bottom-center"/>
 </instance>
-<instance part="JP4" gate="G$1" x="411.48" y="106.68" smashed="yes">
-<attribute name="NAME" x="408.94" y="109.22" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="406.4" y="104.648" size="1.778" layer="96" font="vector" align="top-left"/>
-</instance>
-<instance part="5V1" gate="G$1" x="162.56" y="121.92" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="162.56" y="124.714" size="1.778" layer="96" font="vector" rot="MR0" align="bottom-center"/>
+<instance part="JP4" gate="G$1" x="157.48" y="119.38" smashed="yes">
+<attribute name="NAME" x="154.94" y="121.92" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="152.4" y="117.348" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
 <instance part="3.3V" gate="G$1" x="15.24" y="40.64" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="15.24" y="43.434" size="1.778" layer="96" font="vector" rot="MR0" align="bottom-center"/>
@@ -24972,8 +24970,8 @@ is connected to Raspi header RXI</text>
 <instance part="3.3V4" gate="G$1" x="314.96" y="139.7" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="314.96" y="142.494" size="1.778" layer="96" font="vector" rot="MR0" align="bottom-center"/>
 </instance>
-<instance part="3.3V5" gate="G$1" x="157.48" y="116.84" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="157.48" y="119.634" size="1.778" layer="96" font="vector" rot="MR0" align="bottom-center"/>
+<instance part="3.3V5" gate="G$1" x="144.78" y="116.84" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="144.78" y="119.634" size="1.778" layer="96" font="vector" rot="MR0" align="bottom-center"/>
 </instance>
 <instance part="3.3V6" gate="G$1" x="86.36" y="106.68" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="86.36" y="109.474" size="1.778" layer="96" font="vector" rot="MR0" align="bottom-center"/>
@@ -25257,8 +25255,8 @@ is connected to Raspi header RXI</text>
 <instance part="GND25" gate="1" x="350.52" y="43.18" smashed="yes">
 <attribute name="VALUE" x="350.52" y="42.926" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="5V8" gate="G$1" x="419.1" y="109.22" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="419.1" y="112.014" size="1.778" layer="96" font="vector" rot="MR0" align="bottom-center"/>
+<instance part="5V8" gate="G$1" x="406.4" y="109.22" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="406.4" y="112.014" size="1.778" layer="96" font="vector" rot="MR0" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY13" gate="G$1" x="365.76" y="109.22" smashed="yes">
 <attribute name="VALUE" x="365.76" y="112.014" size="1.778" layer="96" font="vector" align="bottom-center"/>
@@ -25308,6 +25306,9 @@ is connected to Raspi header RXI</text>
 </instance>
 <instance part="5V11" gate="G$1" x="236.22" y="246.38" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="236.22" y="249.174" size="1.778" layer="96" font="vector" rot="MR0" align="bottom-center"/>
+</instance>
+<instance part="5V2" gate="G$1" x="149.86" y="121.92" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="149.86" y="124.714" size="1.778" layer="96" font="vector" rot="MR0" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -26039,16 +26040,6 @@ is connected to Raspi header RXI</text>
 </net>
 <net name="PI-5V" class="0">
 <segment>
-<pinref part="5V1" gate="G$1" pin="VIN"/>
-<pinref part="J1" gate="G$1" pin="5V@4"/>
-<wire x1="165.1" y1="116.84" x2="162.56" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="5V@2"/>
-<wire x1="165.1" y1="119.38" x2="162.56" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="116.84" x2="162.56" y2="119.38" width="0.1524" layer="91"/>
-<junction x="162.56" y="119.38"/>
-<wire x1="162.56" y1="119.38" x2="162.56" y2="121.92" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="241.3" y1="241.3" x2="241.3" y2="243.84" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="243.84" x2="236.22" y2="243.84" width="0.1524" layer="91"/>
@@ -26100,6 +26091,27 @@ is connected to Raspi header RXI</text>
 <wire x1="111.76" y1="58.42" x2="111.76" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="TP24" gate="G$1" pin="1"/>
 <wire x1="114.3" y1="55.88" x2="111.76" y2="55.88" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="5V8" gate="G$1" pin="VIN"/>
+<wire x1="406.4" y1="106.68" x2="406.4" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="Q12" gate="G$1" pin="D"/>
+<wire x1="388.62" y1="106.68" x2="391.16" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="R19" gate="G$1" pin="2"/>
+<wire x1="391.16" y1="106.68" x2="391.16" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="R18" gate="G$1" pin="2"/>
+<wire x1="401.32" y1="83.82" x2="403.86" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="403.86" y1="83.82" x2="403.86" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="403.86" y1="106.68" x2="391.16" y2="106.68" width="0.1524" layer="91"/>
+<junction x="391.16" y="106.68"/>
+<wire x1="406.4" y1="106.68" x2="403.86" y2="106.68" width="0.1524" layer="91"/>
+<junction x="403.86" y="106.68"/>
+</segment>
+<segment>
+<pinref part="5V2" gate="G$1" pin="VIN"/>
+<wire x1="149.86" y1="119.38" x2="149.86" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="JP4" gate="G$1" pin="1"/>
+<wire x1="152.4" y1="119.38" x2="149.86" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VBUS" class="1">
@@ -26252,11 +26264,11 @@ is connected to Raspi header RXI</text>
 <pinref part="3.3V5" gate="G$1" pin="VIN"/>
 <pinref part="J1" gate="G$1" pin="3.3V@17"/>
 <pinref part="J1" gate="G$1" pin="3.3V@1"/>
-<wire x1="157.48" y1="111.76" x2="165.1" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="114.3" x2="165.1" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="111.76" x2="157.48" y2="114.3" width="0.1524" layer="91"/>
-<junction x="157.48" y="114.3"/>
-<wire x1="157.48" y1="114.3" x2="157.48" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="111.76" x2="165.1" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="114.3" x2="165.1" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="111.76" x2="144.78" y2="114.3" width="0.1524" layer="91"/>
+<junction x="144.78" y="114.3"/>
+<wire x1="144.78" y1="114.3" x2="144.78" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="3.3V6" gate="G$1" pin="VIN"/>
@@ -26538,14 +26550,14 @@ is connected to Raspi header RXI</text>
 <pinref part="J21" gate="J1" pin="1"/>
 </segment>
 <segment>
-<pinref part="S1" gate="1" pin="O"/>
-<wire x1="215.9" y1="111.76" x2="218.44" y2="111.76" width="0.1524" layer="91"/>
-<label x="218.44" y="111.76" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="TP21" gate="G$1" pin="1"/>
 <wire x1="114.3" y1="38.1" x2="111.76" y2="38.1" width="0.1524" layer="91"/>
 <label x="111.76" y="38.1" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="215.9" y1="106.68" x2="218.44" y2="106.68" width="0.1524" layer="91"/>
+<label x="218.44" y="106.68" size="1.27" layer="95" xref="yes"/>
+<pinref part="S1" gate="1" pin="S"/>
 </segment>
 </net>
 <net name="CH340-TXO" class="0">
@@ -26559,38 +26571,21 @@ is connected to Raspi header RXI</text>
 <pinref part="D1" gate="G$1" pin="C"/>
 </segment>
 <segment>
-<pinref part="S1" gate="1" pin="S"/>
-<wire x1="215.9" y1="106.68" x2="218.44" y2="106.68" width="0.1524" layer="91"/>
-<label x="218.44" y="106.68" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="TP23" gate="G$1" pin="1"/>
 <wire x1="114.3" y1="35.56" x2="111.76" y2="35.56" width="0.1524" layer="91"/>
 <label x="111.76" y="35.56" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
-</net>
-<net name="VIN" class="0">
 <segment>
-<pinref part="5V8" gate="G$1" pin="VIN"/>
-<wire x1="419.1" y1="106.68" x2="419.1" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="JP4" gate="G$1" pin="2"/>
-<wire x1="416.56" y1="106.68" x2="419.1" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="111.76" x2="218.44" y2="111.76" width="0.1524" layer="91"/>
+<label x="218.44" y="111.76" size="1.27" layer="95" xref="yes"/>
+<pinref part="S1" gate="1" pin="O"/>
 </segment>
 </net>
 <net name="N$20" class="0">
 <segment>
-<pinref part="Q12" gate="G$1" pin="D"/>
-<wire x1="388.62" y1="106.68" x2="391.16" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="R19" gate="G$1" pin="2"/>
-<wire x1="391.16" y1="106.68" x2="391.16" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="R18" gate="G$1" pin="2"/>
-<wire x1="401.32" y1="83.82" x2="403.86" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="403.86" y1="83.82" x2="403.86" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="403.86" y1="106.68" x2="391.16" y2="106.68" width="0.1524" layer="91"/>
-<junction x="391.16" y="106.68"/>
-<pinref part="JP4" gate="G$1" pin="1"/>
-<wire x1="403.86" y1="106.68" x2="406.4" y2="106.68" width="0.1524" layer="91"/>
-<junction x="403.86" y="106.68"/>
+<pinref part="J1" gate="G$1" pin="5V@2"/>
+<pinref part="JP4" gate="G$1" pin="2"/>
+<wire x1="165.1" y1="119.38" x2="162.56" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
