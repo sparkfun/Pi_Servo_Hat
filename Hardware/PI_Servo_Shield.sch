@@ -24994,7 +24994,7 @@ Used on single circuit logic gates</description>
 <sheet>
 <plain>
 <text x="349.758" y="11.43" size="2.54" layer="94" font="vector">M. Hord</text>
-<text x="421.64" y="6.604" size="2.54" layer="94" font="vector" ratio="12">v12</text>
+<text x="421.64" y="6.604" size="2.54" layer="94" font="vector" ratio="12">v20</text>
 <wire x1="0" y1="152.4" x2="139.7" y2="152.4" width="0.3048" layer="97" style="longdash"/>
 <wire x1="139.7" y1="152.4" x2="139.7" y2="0" width="0.3048" layer="97" style="longdash"/>
 <wire x1="139.7" y1="152.4" x2="330.2" y2="152.4" width="0.3048" layer="97" style="longdash"/>
