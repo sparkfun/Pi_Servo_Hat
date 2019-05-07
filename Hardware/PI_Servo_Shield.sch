@@ -23887,14 +23887,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="-3.01625" y="-2.69875" curve="90"/>
 </polygon>
 </package>
-<package name="SOT363_PHILIPS" urn="urn:adsk.eagle:footprint:29648/1">
+<package name="SOT363_PHILIPS" urn="urn:adsk.eagle:footprint:29648/1" locally_modified="yes">
 <description>&lt;b&gt;Small Outline Transistor; 6 leads&lt;/b&gt;&lt;p&gt;
 Philips Semiconductors, SOT363.pdf</description>
 <wire x1="-1" y1="0.55" x2="1" y2="0.55" width="0.2032" layer="51"/>
 <wire x1="1" y1="0.55" x2="1" y2="-0.55" width="0.2032" layer="21"/>
 <wire x1="1" y1="-0.55" x2="-1" y2="-0.55" width="0.2032" layer="51"/>
 <wire x1="-1" y1="-0.55" x2="-1" y2="0.55" width="0.2032" layer="21"/>
-<circle x="-0.7" y="-0.25" radius="0.15" width="0" layer="21"/>
 <smd name="1" x="-0.65" y="-0.8" dx="0.4" dy="0.8" layer="1"/>
 <smd name="2" x="0" y="-0.8" dx="0.4" dy="0.8" layer="1"/>
 <smd name="3" x="0.65" y="-0.8" dx="0.4" dy="0.8" layer="1"/>
@@ -23941,7 +23940,7 @@ Philips Semiconductors, SOT363.pdf</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="SOT363_PHILIPS" urn="urn:adsk.eagle:package:29757/2" type="model">
+<package3d name="SOT363_PHILIPS" urn="urn:adsk.eagle:package:29757/2" locally_modified="yes" type="model">
 <description>Small Outline Transistor; 6 leads
 Philips Semiconductors, SOT363.pdf</description>
 <packageinstances>
