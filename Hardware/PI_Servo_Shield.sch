@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -24993,7 +24993,7 @@ Used on single circuit logic gates</description>
 <sheet>
 <plain>
 <text x="349.758" y="11.43" size="2.54" layer="94" font="vector">M. Hord</text>
-<text x="421.64" y="6.604" size="2.54" layer="94" font="vector" ratio="12">v20</text>
+<text x="421.64" y="6.604" size="2.54" layer="94" font="vector" ratio="12">v21</text>
 <wire x1="0" y1="152.4" x2="139.7" y2="152.4" width="0.3048" layer="97" style="longdash"/>
 <wire x1="139.7" y1="152.4" x2="139.7" y2="0" width="0.3048" layer="97" style="longdash"/>
 <wire x1="139.7" y1="152.4" x2="330.2" y2="152.4" width="0.3048" layer="97" style="longdash"/>
@@ -25069,8 +25069,6 @@ to dissconnect I2C pullups</text>
 <text x="399.542" y="195.834" size="1.27" layer="97" font="vector">~0V</text>
 <wire x1="381" y1="200.66" x2="419.1" y2="200.66" width="0.3048" layer="97" style="shortdash"/>
 <wire x1="381" y1="139.7" x2="381" y2="200.66" width="0.3048" layer="97" style="shortdash"/>
-<text x="304.292" y="65.532" size="0.8128" layer="94" font="vector">TXO</text>
-<text x="304.292" y="68.072" size="0.8128" layer="94" font="vector">RXI</text>
 <text x="213.36" y="101.6" size="1.778" layer="97" font="vector">Serial Swtich</text>
 <text x="213.36" y="99.568" size="1.778" layer="97" font="vector" align="top-left">Selects which TX source 
 (RVR or CH340) is connected 
@@ -25090,6 +25088,20 @@ when USB OR RVR is connected)</text>
 <wire x1="139.7" y1="53.34" x2="236.22" y2="53.34" width="0.3048" layer="97" style="longdash"/>
 <text x="146.05" y="42.418" size="2.54" layer="97" font="vector">Test points</text>
 <wire x1="282.702" y1="242.062" x2="289.56" y2="254" width="0.1524" layer="97" style="shortdash"/>
+<text x="313.436" y="75.438" size="1.778" layer="97" font="vector">RVR
+PINS</text>
+<text x="314.96" y="73.66" size="1.27" layer="97" font="vector" ratio="12" align="center-left">+5V</text>
+<text x="314.96" y="71.12" size="1.27" layer="97" font="vector" ratio="12" align="center-left">GND</text>
+<text x="314.96" y="68.58" size="1.27" layer="97" font="vector" ratio="12" align="center-left">TX</text>
+<text x="314.96" y="66.04" size="1.27" layer="97" font="vector" ratio="12" align="center-left">RX</text>
+<wire x1="303.784" y1="66.04" x2="313.69" y2="66.04" width="0.1524" layer="97"/>
+<wire x1="303.784" y1="68.58" x2="313.69" y2="68.58" width="0.1524" layer="97"/>
+<wire x1="303.784" y1="71.12" x2="313.69" y2="71.12" width="0.1524" layer="97"/>
+<wire x1="303.784" y1="73.66" x2="313.69" y2="73.66" width="0.1524" layer="97"/>
+<wire x1="311.658" y1="81.28" x2="311.658" y2="62.484" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="311.658" y1="62.484" x2="320.04" y2="62.484" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="320.04" y1="62.484" x2="320.04" y2="81.28" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="320.04" y1="81.28" x2="311.658" y2="81.28" width="0.1524" layer="97" style="shortdash"/>
 </plain>
 <instances>
 <instance part="J1" gate="G$1" x="180.34" y="93.98" smashed="yes">
@@ -26584,14 +26596,14 @@ when USB OR RVR is connected)</text>
 <pinref part="D2" gate="G$1" pin="C"/>
 </segment>
 <segment>
-<wire x1="297.18" y1="68.58" x2="292.1" y2="68.58" width="0.1524" layer="91"/>
-<label x="292.1" y="68.58" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
-<pinref part="J21" gate="J1" pin="2"/>
-</segment>
-<segment>
 <pinref part="TP20" gate="G$1" pin="1"/>
 <wire x1="187.96" y1="25.4" x2="185.42" y2="25.4" width="0.1524" layer="91"/>
 <label x="185.42" y="25.4" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="297.18" y1="66.04" x2="292.1" y2="66.04" width="0.1524" layer="91"/>
+<label x="292.1" y="66.04" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
+<pinref part="J21" gate="J1" pin="1"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -26931,11 +26943,6 @@ when USB OR RVR is connected)</text>
 </net>
 <net name="RVR-TXO" class="0">
 <segment>
-<wire x1="297.18" y1="66.04" x2="292.1" y2="66.04" width="0.1524" layer="91"/>
-<label x="292.1" y="66.04" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
-<pinref part="J21" gate="J1" pin="1"/>
-</segment>
-<segment>
 <pinref part="TP21" gate="G$1" pin="1"/>
 <wire x1="187.96" y1="22.86" x2="185.42" y2="22.86" width="0.1524" layer="91"/>
 <label x="185.42" y="22.86" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
@@ -26944,6 +26951,11 @@ when USB OR RVR is connected)</text>
 <wire x1="228.6" y1="106.68" x2="231.14" y2="106.68" width="0.1524" layer="91"/>
 <label x="231.14" y="106.68" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="S1" gate="1" pin="S"/>
+</segment>
+<segment>
+<wire x1="297.18" y1="68.58" x2="292.1" y2="68.58" width="0.1524" layer="91"/>
+<label x="292.1" y="68.58" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
+<pinref part="J21" gate="J1" pin="2"/>
 </segment>
 </net>
 <net name="CH340-TXO" class="0">
