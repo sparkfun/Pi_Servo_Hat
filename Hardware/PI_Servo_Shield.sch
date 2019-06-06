@@ -24988,6 +24988,7 @@ Used on single circuit logic gates</description>
 <part name="U2" library="SparkFun-IC-Logic" deviceset="74*32" device="" value="SN74LVC1G32DCKR"/>
 <part name="5V3" library="SparkFun-PowerSymbols" deviceset="VIN" device="" value="PI-5V"/>
 <part name="GND26" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="TP26" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X4" value=""/>
 </parts>
 <sheets>
 <sheet>
@@ -25697,6 +25698,9 @@ PINS</text>
 </instance>
 <instance part="GND26" gate="1" x="365.76" y="76.2" smashed="yes">
 <attribute name="VALUE" x="365.76" y="75.946" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
+<instance part="TP26" gate="G$1" x="187.96" y="27.94" smashed="yes">
+<attribute name="VALUE" x="185.42" y="25.4" size="1.778" layer="96" font="vector"/>
 </instance>
 </instances>
 <busses>
@@ -26578,6 +26582,11 @@ PINS</text>
 <pinref part="S1" gate="1" pin="P"/>
 <wire x1="220.98" y1="109.22" x2="195.58" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="RXI"/>
+</segment>
+<segment>
+<pinref part="TP26" gate="G$1" pin="1"/>
+<wire x1="187.96" y1="27.94" x2="185.42" y2="27.94" width="0.1524" layer="91"/>
+<label x="185.42" y="27.94" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="PI-TXO" class="0">
