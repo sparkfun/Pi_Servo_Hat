@@ -2,6 +2,7 @@ SparkFun Pi Servo pHAT
 =====================
 
 [![Pi Servo pHAT](https://cdn.sparkfun.com/assets/parts/1/3/8/2/7/15316-SparkFun_Servo_pHAT_for_Raspberry_Pi-01.jpg)](https://cdn.sparkfun.com/assets/parts/1/3/8/2/7/15316-SparkFun_Servo_pHAT_for_Raspberry_Pi-01.jpg)
+
 [SparkFun Servo pHAT for Raspberry Pi (DEV-15316)](https://www.sparkfun.com/products/15316)
 
 <!--
