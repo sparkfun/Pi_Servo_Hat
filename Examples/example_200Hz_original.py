@@ -8,7 +8,7 @@ import smbus, time
 
 bus = smbus.SMBus(1)  # the chip is on bus 1 of the available I2C buses
 addr = 0x40           # I2C address of the PWM chip.
-bus.write_byte_data(addr, 0, 0x20)     # enable the chip
+bus.write_byte_data(addr, 0, 0x20)     # enables word writes
 bus.write_byte_data(addr, 0xfe, 0x1e)  # configure the chip for multi-byte write
 
 bus.write_word_data(addr, 0x06, 0)     # chl 0 start time = 0us
